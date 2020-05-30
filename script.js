@@ -1,4 +1,4 @@
-import { nanoid } from 'nanoid'
+import { nanoid } from 'nanoid/non-secure'
 
 //const nanoid = customAlphabet('1234567890abcdef', 10)
 
