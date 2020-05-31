@@ -1,3 +1,3 @@
 var date = Date.now();
-console.log("hello" + date);
+console.log("hello " + date);
 
