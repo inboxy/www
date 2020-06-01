@@ -12,31 +12,10 @@
     
     <p id="footer">&copy inboxy.net 2020</p>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanoid/3.1.9/index.browser.js" integrity="sha256-e49ILaC+EWS4mIFnfl2IBa99+Q1ICB0HVCg3fGjZIjE=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
     <script>
       console.log("hello from little script");
-      $(document).ready(function() {
-    var badge = 5;
-    var favicon = new Favico({
-        animation : 'popFade'
-    });
-    $('#plusOne').bind('click',function() {
-        badge = badge + 1;
-        favicon.badge(badge);
-    });
-    $('#minusOne').bind('click',function() {
-        badge = (badge-1 < 0) ? 0 : (badge - 1);
-        favicon.badge(badge);
-    });
-    $('#reset').bind('click',function() {
-        favicon.reset();
-    });
-    //intial value
-    favicon.badge(badge);
-});
-
     </script>
 
 
