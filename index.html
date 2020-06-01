@@ -10,8 +10,19 @@
     <h1>inboxy.net</h1>
     <p>This is not a very good website, but who is going to see it.</p>
     
-    <p>&copy inboxy.net 2020</p>
+    <p id="footer">&copy inboxy.net 2020</p>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/nanoid/3.1.9/index.browser.js" integrity="sha256-e49ILaC+EWS4mIFnfl2IBa99+Q1ICB0HVCg3fGjZIjE=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
+    <script>
+      console.log("hello from little script");
+      import { nanoid } from 'nanoid/non-secure'
+      const id = nanoid() //=> "Uakgb_J5m9g-0JDMbcJqLJ"
+      console.log(id)
+
+    </script>
+
+
   </body>
 </html>
